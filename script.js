@@ -4,8 +4,8 @@ const treesEl = document.querySelector(".alt-container .trees")
 const mountainsEl = document.querySelector(".alt-container .mountains")
 const speed = {
   grass: 1,
-  trees: .7,
-  mountains: .5,
+  trees: .5,
+  mountains: .2,
 }
 
 bodyEl.addEventListener("mousemove", (e) => {
