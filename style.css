@@ -9,6 +9,8 @@ body {
 .alt-container {
   width: 100%;
   height: 500px;
+  position: relative;
+  overflow: hidden;
 }
 
 .alt-container .grass{
@@ -16,7 +18,7 @@ body {
   width: 100%;
   height: 500px;
   position: absolute;
-  top: 0;
+  bottom: -30px;
 }
 .alt-container .trees{
   background-image: url("./images/trees.png");
@@ -30,5 +32,5 @@ body {
   width: 100%;
   height: 500px;
   position: absolute;
-  top: 0;
+  top: -10px;
 }
